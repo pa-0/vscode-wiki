@@ -15,7 +15,6 @@ Give us 5 minutes and we'll give you a new favorite development tool.
 ### WOW! Examples
 
 * Configure key bindings, themes, common settings on first run of VS Code
-* Ability to roam settings using gists, etc.
 * Ability to create new Workspaces from within VS Code
 * "Open in VS Code" from a git repository
 * Setting "Packs" for common settings (key bindings, extensions, etc.)
@@ -33,6 +32,7 @@ We want to make sure there aren't any gaps preventing VS Code from becoming your
 
 * [Tabs](https://github.com/Microsoft/vscode/issues/224) and window management (e.g. horizontal split)
 * [VIM style key binding](https://github.com/Microsoft/vscode/issues/3600)
+* [Indent guides](https://github.com/Microsoft/vscode/issues/2192)
 * Fast Search and Global Replace
 * Error List
 * Multiple workspaces with fast switching
@@ -66,9 +66,12 @@ We want VS Code to be the best tool for doing Web and Node development. We will 
 
 ### Full Stack + Node Examples
 
-* Work with the Salsa language service to deliver experiences such as automatic detection of .d.ts files, Angular IntelliSense, and diagnostics on project configuration files
-* Node Debugger: step over uninteresting (generated) code
-* Improved npm support and help to keep the package.json consistent with the installed node modules
+* Work with the TypeScript team on the Salsa language service which powers our JavaScript and TypeScript editing experiences to:
+    * Automatic detection of .d.ts files to enable IntelliSense "out of the box"
+    * Angular IntelliSense
+    * Diagnostics on project configuration files (`jsconfig.json`, `tsconfig.json`)
+* Node Debugger: Step over uninteresting (generated) code
+* Improved npm support and help to keep the `package.json` consistent with the installed node modules
 
 ## Summary
 
